@@ -4,14 +4,18 @@ import '../styles/Home.css'
 function Nav() {
   return (
     <>
-      {/* Website Logo */}
-      <div>
-        <img src={logo} className="web-logo"/> 
-      </div>
+      <nav className="nav-bar">
+        {/* Website Logo */}
+        <div>
+          <a href="http://localhost:5173/">
+            <img src={logo} className="web-logo"/> 
+          </a>
+        </div>
 
-      {/* Navigation Buttons */}
-      <div>
-      </div>
+        {/* Navigation Buttons */}
+        <div>
+        </div>
+      </nav>
     </>
   );
 }
