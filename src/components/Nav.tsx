@@ -15,7 +15,7 @@ function Nav() {
         {/* Navigation Buttons */}
         <div className="nav-buttons">
           <ul className="nav-buttons-list">
-            <li className="nav-buttons-item"><a href="">Home</a></li>
+            <li className="nav-buttons-item"><a href="http://localhost:5173/">Home</a></li>
             <li className="nav-buttons-item"><a href="">About Us</a></li>
             <li className="nav-buttons-item"><a href="">Our Projects</a></li>
           </ul>
