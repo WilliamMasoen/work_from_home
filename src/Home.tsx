@@ -4,12 +4,12 @@ import Footer from "./components/Footer.tsx";
 
 function Home() {
   const QuotesList = [
-    "Carpe Diem",
-    "Quote 1",
-    "Quote 1",
-    "Quote 1",
-    "Quote 1",
-    "Quote 1",
+    "Carpe Diem.",
+    "Quote2",
+    "Quote3",
+    "Quote4",
+    "Quote5",
+    "Quote6",
   ];
 
   return (
