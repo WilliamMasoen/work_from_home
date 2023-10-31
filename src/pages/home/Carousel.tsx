@@ -73,7 +73,7 @@ function Carousel() {
     }
   }
 
-  const carouselDelay = 4000;
+  const carouselDelay = 5000;
 
   useEffect(() => {
     resetTimeout();
