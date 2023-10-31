@@ -38,20 +38,21 @@ function Carousel() {
     },
     {
       index: 4,
-      quote: '"You never fail until you stop trying."',
-      credits: "- Albert Einstein",
+      quote: '"Ego is the anaesthesia that deadens the pain of stupidity."',
+      credits: "- Rick Rigsby",
       image: q2,
     },
     {
       index: 5,
-      quote: '"Carpe Diem5."',
-      credits: "- Ali",
+      quote:
+        '"We are what we repeatedly do. Excellence, then, is not an act, but a habit."',
+      credits: "- Aristotle",
       image: q1,
     },
     {
       index: 6,
-      quote: '"Carpe Diem6."',
-      credits: "- Ali",
+      quote: '"You like because, you love despite."',
+      credits: "- Becca",
       image: q2,
     },
   ];
