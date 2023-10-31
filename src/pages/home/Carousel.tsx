@@ -2,6 +2,10 @@ import "../../styles/Carousel.css";
 import { useRef, useEffect, useState } from "react";
 import q1 from "../../assets/images/quotes/q1.jpg";
 import q2 from "../../assets/images/quotes/q2.png";
+import q3 from "../../assets/images/quotes/q3.jpg";
+import q4 from "../../assets/images/quotes/q4.jpg";
+import q5 from "../../assets/images/quotes/q5.jpg";
+import q6 from "../../assets/images/quotes/q6.png";
 
 interface Quote {
   index: number;
@@ -18,42 +22,42 @@ function Carousel() {
   const QuotesList: Quote[] = [
     {
       index: 1,
-      quote: '"carpe diem."',
+      quote: '"Carpe diem."',
       credits: "- Horace",
       image: q1,
     },
     {
       index: 2,
       quote:
-        '"spread love everywhere you go. let no one ever come to you without leaving happier."',
+        '"Spread love everywhere you go. Let no one ever come to you without leaving happier."',
       credits: "- Mother Teresa",
       image: q2,
     },
     {
       index: 3,
       quote:
-        '"many of lifes failures are people wo did not realize how close they were to success when they gave up."',
+        '"Many of lifes failures are people wo did not realize how close they were to success when they gave up."',
       credits: "- Thomas A. Edison",
-      image: q1,
+      image: q3,
     },
     {
       index: 4,
       quote: '"Ego is the anaesthesia that deadens the pain of stupidity."',
       credits: "- Rick Rigsby",
-      image: q2,
+      image: q4,
     },
     {
       index: 5,
       quote:
         '"We are what we repeatedly do. Excellence, then, is not an act, but a habit."',
       credits: "- Aristotle",
-      image: q1,
+      image: q5,
     },
     {
       index: 6,
       quote: '"You like because, you love despite."',
       credits: "- Becca",
-      image: q2,
+      image: q6,
     },
   ];
 
