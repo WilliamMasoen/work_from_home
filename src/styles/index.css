@@ -1,4 +1,10 @@
 body {
     margin: 0;
     font-family: Jura;
+    height: 100%;
+    background-color: #F4FFF8;
+}
+
+html {
+    height: 100%;
 }
