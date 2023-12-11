@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
 body {
     margin: 0;
     font-family: Jura;
@@ -5,6 +10,21 @@ body {
     background-color: #F4FFF8;
 }
 
-html {
-    height: 100%;
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #95a8b0;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6fa5af;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
 }
