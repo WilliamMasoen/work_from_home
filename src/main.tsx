@@ -6,11 +6,7 @@ import Project from "./pages/project/Project.tsx";
 import "./styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  // <React.StrictMode>
-  //   <Home />
-  // </React.StrictMode>
   <React.StrictMode>
-    {/* <Home /> */}
     <BrowserRouter>
       <Routes>
         <Route path={`/`} element={<Home />} />

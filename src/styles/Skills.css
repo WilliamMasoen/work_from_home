@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 30px;
     margin-bottom: 150px;
     border-radius: 30px;
     box-shadow: inset 0 0 4vh #000F08;
@@ -18,6 +18,7 @@
     font-size: 2.5rem;
     color: #F4FFF8;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .skills-list {
@@ -57,6 +58,28 @@
     color: orange;
 }
 
+#typescript-logo {
+    color: #6495ED;
+}
+
 #react-logo {
-    color: #810541;
+    color: #e91e63;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#react-logo:after{
+    transform:rotate(-57deg);
+}
+
+#react-logo:before{
+    transform:rotate(57deg);
+}
+
+@keyframes rotate{
+    100% {
+      transform:rotate(360deg);
+    }
 }

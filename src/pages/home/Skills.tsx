@@ -2,6 +2,7 @@ import "../../styles/Skills.css";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
 interface Skill {
@@ -26,6 +27,11 @@ function Skills() {
       id: "javascript-logo",
       logo: IoLogoJavascript,
       name: "JavaScript",
+    },
+    {
+      id: "typescript-logo",
+      logo: SiTypescript,
+      name: "TypeScript",
     },
     {
       id: "react-logo",

@@ -1,11 +1,12 @@
 .profile-title {
     text-align: center;
     margin-top: 150px;
-    font-size: larger;
+    font-size: 2rem;
+    color: rgba(55, 51, 50);
 }
 
 .profile-container {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .profile-picture {
@@ -20,33 +21,41 @@
 
 .profile {
     display: inline-flex;
-    padding: 60px 55px 60px 55px;
+    padding: 95px 90px 95px 90px;
     background-color: #8BAAAD;
     border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.profile:hover {
+    background-color: #587779;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .profile-active {
     display: inline-flex;
-    padding: 58px 53px 58px 53px;
-    border: 2px solid #1C3738;
+    padding: 91px 86px 91px 86px;
+    transform: scale(1.12);
+    border: 4px solid #1C3738;
     background-color: #8BAAAD;
     border-radius: 15px;
+    transition: transform .4s ease-in-out;
 }
 
 .profile img {
-    width: 100px;
+    width: 200px;
     border-radius: 50%;
 }
 
 .profile-active img {
-    width: 100px;
+    width: 200px;
     border-radius: 50%;
 }
 
 .profile-information-container {
     overflow: hidden;
     width: 100%;
-    max-height: 40vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -69,17 +78,32 @@
 
 .profile-card {
     margin-bottom: 50px;
-    background-color: rgba(255, 255, 255, .2);
+    margin-top: 20px;
+    /* background-color: rgba(255, 255, 255, .2); */
+    background-color: rgba(244, 255, 248, 0.2);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
-    padding: 20px 150px 10px 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 30px 50px 30px 50px;
+    white-space: initial;
 }
 
 .profile-name {
     text-align: center;
+    font-size: 2.5rem;
+    color: rgba(55, 51, 50);
 }
 
 .profile-list {
     list-style-type: circle;
+    font-size: 1.8rem;
+    color: rgba(55, 51, 50);
 }
 
+.linkedin-url {
+    color:blue;
+    text-decoration: underline;
+}

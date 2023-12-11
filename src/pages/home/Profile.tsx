@@ -1,6 +1,6 @@
 import "../../styles/Profile.css";
 import { useState } from "react";
-import pfp1 from "../../assets/images/profile/profile.png";
+import jussy from "../../assets/images/profile_pics/justin.jpeg";
 
 interface Profile {
   pfp: any;
@@ -11,6 +11,7 @@ interface Profile {
   degree: string;
   hobby: string;
   linkedin: string;
+  email: string;
   skills: any;
   summary: string;
 }
@@ -19,26 +20,28 @@ function Profile() {
   const [profileInformation, setProfileInformation] = useState(-1);
   const ProfileList: Profile[] = [
     {
-      pfp: pfp1,
+      pfp: jussy,
       name: "Justin Alianto",
       nationality: "Indonesian",
-      university: "University of Toronto",
+      university: "University of Toronto St George",
       expectedGrad: 2025,
-      degree: "Computer Science with PEY Program",
+      degree: "Computer Science with Co-Op Program",
       hobby: "Soccer",
-      linkedin: "https:...",
+      linkedin: "https://www.linkedin.com/in/justinalianto",
+      email: "justinalianto@gmail.com",
       skills: "None",
       summary: "Hello my name is jussy",
     },
     {
-      pfp: pfp1,
+      pfp: jussy,
       name: "William Masoen",
       nationality: "Indonesian",
       university: "Toronto Metropolitan University",
       expectedGrad: 2024,
-      degree: "Computer Science with Co-op Program",
+      degree: "Computer Science with Co-Op Program",
       hobby: "Zelda",
-      linkedin: "https:...",
+      linkedin: "https://",
+      email: "williamvm@icloud.com",
       skills: "Everything",
       summary: "Hello my name is willy",
     },
@@ -51,7 +54,7 @@ function Profile() {
   return (
     <>
       <div className="profile-title" id="about-us">
-        <h1>Meet the Developers</h1>
+        <h1>meet the developers.</h1>
       </div>
       <div className="profile-container">
         <div className="profile-picture">
@@ -83,7 +86,7 @@ function Profile() {
               return (
                 <div className="profile-information">
                   {profileInformation === -1 ? (
-                    <div></div>
+                    <div id="profile-neutral"></div>
                   ) : (
                     <div className="profile-card">
                       <h1 className="profile-name">{profile.name}</h1>
@@ -94,7 +97,16 @@ function Profile() {
                           <li>Expected Graduation: {profile.expectedGrad}</li>
                           <li>Degree: {profile.degree}</li>
                           <li>Hobby: {profile.hobby}</li>
-                          <li>LinkedIn: {profile.linkedin}</li>
+                          <li>
+                            LinkedIn:{" "}
+                            <a
+                              href={profile.linkedin}
+                              className="linkedin-url"
+                              target="_blank"
+                            >
+                              {profile.linkedin}
+                            </a>
+                          </li>
                           <li>Skills: {profile.skills}</li>
                           <li>Summary: {profile.summary}</li>
                         </ul>
