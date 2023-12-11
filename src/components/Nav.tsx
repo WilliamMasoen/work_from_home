@@ -19,10 +19,10 @@ function Nav() {
               <a href="http://localhost:5173/">Home</a>
             </li>
             <li className="nav-buttons-item">
-              <a href="#about-us">About Us</a>
+              <a href="http://localhost:5173/#about-us">About Us</a>
             </li>
             <li className="nav-buttons-item">
-              <a href="#nav-bar">Our Projects</a>
+              <a href="http://localhost:5173/projects">Our Projects</a>
             </li>
           </ul>
         </div>
