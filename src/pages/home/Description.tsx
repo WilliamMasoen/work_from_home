@@ -8,7 +8,11 @@ function Description() {
   const DescriptionList: Description[] = [
     {
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo consequat. Duis aute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia deseruntmollit anim id est laborum.",
+        "This website serves to showcase our sprinkles of creativity and commitment to our career growth in the technology space. " +
+        "Combining both of our skillsets, our collaboration aims to create as many meaningful and practical applications as we can to " +
+        "(definitely) generate a boost of productivity and efficiency to our day-to-day errands and challenges. " +
+        "We hope that you learn something about us from here and feel absolutely free to reach out to us for a chat about opportunities, " +
+        "collaborations, or even coffee :)",
     },
   ];
 

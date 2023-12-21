@@ -1,6 +1,8 @@
 import logo from "../assets/images/Logo.png";
 import "../styles/Nav.css";
 
+// Refactor Nav bar to use props
+
 function Nav() {
   return (
     <>
