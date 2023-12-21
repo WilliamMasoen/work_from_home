@@ -107,14 +107,17 @@ function Profile() {
                         </p>
                       </div>
                       <div>
+                        <div className="profile-summary">
+                          "{profile.summary}"
+                        </div>
+
                         <ul className="profile-list">
-                          <li>Nationality: {profile.nationality}</li>
+                          <li>Skills: {profile.skills}</li>
+                          <li>Degree: {profile.degree}</li>
                           <li>University: {profile.university}</li>
                           <li>Expected Graduation: {profile.expectedGrad}</li>
-                          <li>Degree: {profile.degree}</li>
+                          <li>Nationality: {profile.nationality}</li>
                           <li>Hobby: {profile.hobby}</li>
-                          <li>Skills: {profile.skills}</li>
-                          <li>Summary: {profile.summary}</li>
                         </ul>
 
                         <div className="profile-media">

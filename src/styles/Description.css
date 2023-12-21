@@ -1,20 +1,17 @@
 .home-description {
-    margin: 50px 250px 50px 250px;
+    margin: 50px 150px 50px 150px;
     padding: 100px;
     font-size: 180%;
-    /* background-color: rgba(77, 72, 71); */
-    background-color: rgba(55, 51, 50);
-    /* background-color: black; */
-    /* border-radius: 20px; */
-    box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.2), 2px 8px 22px 2px rgba(0, 0, 0, 0.19);
-    transition: all .3s ease-in-out;
-    color: white;
-    text-align: justify;
-    text-justify: inter-word;
+    /* background-color: rgba(55, 51, 50); */
+    /* box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.2), 2px 8px 22px 2px rgba(0, 0, 0, 0.19); */
+    /* transition: all .3s ease-in-out; */
+    color: black;
+    text-align: center;
+    /* text-align: justify;
+    text-justify: inter-word; */
 }
 
-.home-description:hover {
+/* .home-description:hover {
     transform: scale(1.025);
-    /* background-color: rgba(55, 51, 50); */
     background-color: rgb(36, 34, 33);
-}
+} */
