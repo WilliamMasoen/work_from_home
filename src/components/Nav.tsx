@@ -1,9 +1,26 @@
 import logo from "../assets/images/Logo.png";
 import "../styles/Nav.css";
 
-// Refactor Nav bar to use props
+interface NavButtons {
+  button: string;
+  link: string;
+}
 
 function Nav() {
+  const NavButtonsList: NavButtons[] = [
+    {
+      button: "Home",
+      link: "http://localhost:5173/",
+    },
+    {
+      button: "About Us",
+      link: "http://localhost:5173/#about-us",
+    },
+    {
+      button: "Our Projects",
+      link: "http://localhost:5173/projects",
+    },
+  ];
   return (
     <>
       <nav className="nav-bar" id="nav-bar">
@@ -17,15 +34,13 @@ function Nav() {
         {/* Navigation Buttons */}
         <div className="nav-buttons">
           <ul className="nav-buttons-list">
-            <li className="nav-buttons-item">
-              <a href="http://localhost:5173/">Home</a>
-            </li>
-            <li className="nav-buttons-item">
-              <a href="http://localhost:5173/#about-us">About Us</a>
-            </li>
-            <li className="nav-buttons-item">
-              <a href="http://localhost:5173/projects">Our Projects</a>
-            </li>
+            {NavButtonsList.map((buttonItem) => {
+              return (
+                <li className="nav-buttons-item">
+                  <a href={buttonItem.link}>{buttonItem.button}</a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </nav>
