@@ -87,6 +87,12 @@
     white-space: initial;
 }
 
+/* @media only screen and (max-width: 800px) {
+    .profile-card {
+        background-color: red;
+    }
+} */
+
 .profile-name {
     text-align: center;
     font-size: 2.5rem;
