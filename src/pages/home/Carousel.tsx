@@ -36,7 +36,7 @@ function Carousel() {
     {
       index: 3,
       quote:
-        '"Many of lifes failures are people wo did not realize how close they were to success when they gave up."',
+        '"Many of lifes failures are people who did not realize how close they were to success when they gave up."',
       credits: "- Thomas A. Edison",
       image: q3,
     },
