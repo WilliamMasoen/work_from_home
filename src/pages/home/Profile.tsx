@@ -71,6 +71,9 @@ function Profile() {
       <div className="profile-title" id="about-us">
         <h1>meet the developers.</h1>
       </div>
+      <div className="profile-click-me">
+        <h4>Click on a person to learn more</h4>
+      </div>
       <div className="profile-container">
         <div className="profile-picture">
           {ProfileList.map((profile, index) => {

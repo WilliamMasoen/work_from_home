@@ -19,14 +19,14 @@ function Skills() {
       name: "HTML",
     },
     {
-      id: "css-logo",
-      logo: FaCss3Alt,
-      name: "CSS",
-    },
-    {
       id: "javascript-logo",
       logo: IoLogoJavascript,
       name: "JavaScript",
+    },
+    {
+      id: "react-logo",
+      logo: FaReact,
+      name: "React",
     },
     {
       id: "typescript-logo",
@@ -34,9 +34,9 @@ function Skills() {
       name: "TypeScript",
     },
     {
-      id: "react-logo",
-      logo: FaReact,
-      name: "React",
+      id: "css-logo",
+      logo: FaCss3Alt,
+      name: "CSS",
     },
   ];
 
