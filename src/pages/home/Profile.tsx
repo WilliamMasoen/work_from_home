@@ -58,7 +58,7 @@ function Profile() {
       skills:
         "React, Javascript, Python, Java, SQL, AWS Cloud Computing, Unit Testing and Debugging",
       summary:
-        "A avid enthusiast of both cars and Legend of Zelda, I am also deeply passionate about contributing to the field of software engineering, driven by the eagerness to make a meaningful impact and bring about positive changes in the technological landscape.",
+        "An avid enthusiast of both cars and Legend of Zelda, I am also deeply passionate about contributing to the field of software engineering, driven by the eagerness to make a meaningful impact and bring about positive changes in the technological landscape.",
     },
   ];
 
@@ -136,7 +136,7 @@ function Profile() {
                             <strong>Nationality:</strong> {profile.nationality}
                           </li>
                           <li>
-                            <strong>Hobby:</strong> {profile.hobby}
+                            <strong>Hobbies:</strong> {profile.hobby}
                           </li>
                         </ul>
 

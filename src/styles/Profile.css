@@ -142,7 +142,7 @@ li {
     display: flex;
     flex-direction: row;
     width: 150px;
-    margin-left: 30px;
+    margin-left: 20px;
     align-items: center;
     justify-content: space-around;
 }
@@ -198,47 +198,48 @@ li {
     }
 
     .profile-name {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .profile-current-location {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .profile-summary {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     .profile-list {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
+        padding-left: 10px;
     }
 
     .profile-media-text {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .profile-media-logo-box {
         width: 100px;
-        margin-left: 10px;
+        margin-left: -10px;
     }
 
     #linkedin-logo {
-        transform: scale(2);
+        transform: scale(1.7);
     }
 
     #email-logo {
-        transform: scale(2);
+        transform: scale(1.7);
     }
 }
 
 @media only screen and (min-width: 540px) {
     .profile-title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .profile-click-me {
-        margin-top: -28px;
-        font-size: 1rem;
+        margin-top: -20px;
+        font-size: 0.9rem;
     }
 
     .profile-container {
@@ -260,38 +261,47 @@ li {
     }
 
     .profile-name {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 
     .profile-current-location {
-        font-size: 1.6rem;
-    }
-
-    .profile-summary {
         font-size: 1.3rem;
     }
 
+    .profile-summary {
+        font-size: 1rem;
+    }
+
     .profile-list {
-        font-size: 1.4rem;
+        font-size: 1rem;
+        padding-left: 25px;
     }
 
     .profile-media-text {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .profile-media-logo-box {
         width: 110px;
         margin-left: 10px;
     }
+
+    #linkedin-logo {
+        transform: scale(1.9);
+    }
+
+    #email-logo {
+        transform: scale(1.9);
+    }
 }
 
 @media only screen and (min-width: 769px) {
     .profile-title {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .profile-click-me {
-        margin-top: -32px;
+        margin-top: -25px;
         font-size: 1.05rem;
     }
 
@@ -314,19 +324,20 @@ li {
     }
 
     .profile-name {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 
     .profile-current-location {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .profile-summary {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .profile-list {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        padding-left: 30px;
     }
 
     .profile-media-text {
@@ -335,11 +346,82 @@ li {
     
     .profile-media-logo-box {
         width: 120px;
-        margin-left: 10px;
+        margin-left: 15px;
+    }
+
+    #linkedin-logo {
+        transform: scale(2.1);
+    }
+
+    #email-logo {
+        transform: scale(2.1);
     }
 }
 
 @media only screen and (min-width: 1025px) {
+    .profile-title {
+        font-size: 1.65rem;
+    }
+
+    .profile-click-me {
+        margin-top: -30px;
+        font-size: 1.15rem;
+    }
+
+    .profile-container {
+        margin-top: 50px;
+    }
+
+    .profile-active {
+        border: 4px solid black;
+    }
+    
+    .profile img {
+        width: 250px;
+        border-radius: 50%;
+    }
+    
+    .profile-active img {
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-size: 2.25rem;
+    }
+
+    .profile-current-location {
+        font-size: 1.75rem;
+    }
+
+    .profile-summary {
+        font-size: 1.45rem;
+    }
+
+    .profile-list {
+        font-size: 1.5rem;
+        padding-left: 35px;
+    }
+
+    .profile-media-text {
+        font-size: 1.7rem;
+    }
+    
+    .profile-media-logo-box {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    #linkedin-logo {
+        transform: scale(2.5);
+    }
+
+    #email-logo {
+        transform: scale(2.5);
+    }
+}
+
+@media only screen and (min-width: 1325px) {
     .profile-title {
         font-size: 2rem;
     }
@@ -381,6 +463,7 @@ li {
 
     .profile-list {
         font-size: 1.8rem;
+        padding-left: 40px;
     }
 
     .profile-media-text {
@@ -389,6 +472,14 @@ li {
     
     .profile-media-logo-box {
         width: 150px;
-        margin-left: 30px;
+        margin-left: 20px;
+    }
+
+    #linkedin-logo {
+        transform: scale(3);
+    }
+    
+    #email-logo {
+        transform: scale(3);
     }
 }

@@ -99,10 +99,32 @@
     background-color: rgb(160, 160, 160);
 }
 
+@media only screen and (min-width: 0px) {
+    .quote {
+        font-size: 0.9rem;
+        color: #F4FFF8;
+    }
+
+    .quote-credits {
+        padding-top: 0.5rem;
+        font-size: 0.7em;
+    }
+
+    .quote-carousel-button {
+        width: 2.3rem;
+        margin: 0 0.3rem;
+    }
+}
+
 @media only screen and (min-width: 380px) {
     .quote {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: #F4FFF8;
+    }
+
+    .quote-credits {
+        padding-top: 0.7rem;
+        font-size: 0.8em;
     }
 
     .quote-carousel-button {
@@ -113,8 +135,13 @@
 
 @media only screen and (min-width: 540px) {
     .quote {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         color: #F4FFF8;
+    }
+
+    .quote-credits {
+        padding-top: 0.8rem;
+        font-size: 0.9em;
     }
 
     .quote-carousel-button {
@@ -125,8 +152,13 @@
 
 @media only screen and (min-width: 769px) {
     .quote {
-        font-size: 2.1rem;
+        font-size: 1.5rem;
         color: #F4FFF8;
+    }
+
+    .quote-credits {
+        padding-top: 1rem;
+        font-size: 1em;
     }
 
     .quote-carousel-button {
@@ -137,8 +169,13 @@
 
 @media only screen and (min-width: 1025px) {
     .quote {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         color: #F4FFF8;
+    }
+
+    .quote-credits {
+        padding-top: 1.2rem;
+        font-size: 1.4em;
     }
 
     .quote-carousel-button {
