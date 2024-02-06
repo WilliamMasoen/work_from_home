@@ -1,7 +1,7 @@
 import logo from "../assets/images/Logo.png";
 import { HiBars3 } from "react-icons/hi2";
 import { RxCross1 } from "react-icons/rx";
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/Nav.css";
 // import NavSmall from "./NavSmall";
 
