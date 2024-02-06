@@ -14,15 +14,15 @@ function Nav() {
   const NavButtonsList: NavButtons[] = [
     {
       button: "Home",
-      link: "http://localhost:5173/",
+      link: "https://main.d1y11gn2z9ehb5.amplifyapp.com/",
     },
     {
       button: "About Us",
-      link: "http://localhost:5173/#about-us",
+      link: "https://main.d1y11gn2z9ehb5.amplifyapp.com/#about-us",
     },
     {
       button: "Our Projects",
-      link: "http://localhost:5173/projects",
+      link: "https://main.d1y11gn2z9ehb5.amplifyapp.com/projects",
     },
   ];
 
