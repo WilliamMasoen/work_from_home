@@ -1,0 +1,166 @@
+.skills-box {
+    background-color: #1C3738;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border-radius: 30px;
+    box-shadow:  0px 5px 30px 0px rgb(28, 55, 56, 0.8);
+}
+
+.skills-header {
+    font-size: 2.5rem;
+    color: #F4FFF8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    list-style: none;
+    width: 70%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px 0 10px;
+}
+
+.skills-name {
+    font-size: 1.8rem;
+    color: #F4FFF8;
+    text-align: center;
+}
+
+.skills-logo {
+    font-size: 4.2rem;
+}
+
+#html-logo {
+    color: orangered;
+}
+
+#css-logo {
+    color: #2F539B;
+}
+
+#javascript-logo {
+    color: orange;
+}
+
+#typescript-logo {
+    color: #6495ED;
+}
+
+#react-logo {
+    color: #e91e63;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#react-logo:after{
+    transform:rotate(-57deg);
+}
+
+#react-logo:before{
+    transform:rotate(57deg);
+}
+
+@keyframes rotate{
+    100% {
+      transform:rotate(360deg);
+    }
+}
+
+@media only screen and (min-width: 0px) {
+    .skills-header {
+        font-size: 1.5rem;
+        color: #F4FFF8;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .skills-logo {
+        font-size: 2rem;
+    }
+
+    .skills-name {
+        font-size: 0.9rem;
+        color: #F4FFF8;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .skills-header {
+        font-size: 2.2rem;
+        color: #F4FFF8;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .skills-logo {
+        font-size: 3rem;
+    }
+
+    .skills-name {
+        font-size: 1.3rem;
+        color: #F4FFF8;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .skills-header {
+        font-size: 2.35rem;
+        color: #F4FFF8;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .skills-logo {
+        font-size: 3.2rem;
+    }
+
+    .skills-name {
+        font-size: 1.5rem;
+        color: #F4FFF8;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1110px) {
+    .skills-list {
+        justify-content: space-between;
+    }
+    /* .skills-header {
+        font-size: 2.5rem;
+        color: #F4FFF8;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .skills-logo {
+        font-size: 4.2rem;
+    }
+
+    .skills-name {
+        font-size: 1.8rem;
+        color: #F4FFF8;
+        text-align: center;
+    } */
+}

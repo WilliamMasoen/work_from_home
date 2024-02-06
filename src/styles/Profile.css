@@ -1,0 +1,485 @@
+.profile-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2rem;
+    font-weight: 7000;
+    color: rgba(55, 51, 50);
+}
+
+.profile-click-me {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 1.2rem;
+    color: rgba(55, 51, 50, 0.8);
+}
+
+.profile-container {
+    margin-top: 100px;
+}
+
+.profile-picture {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.profile-picture button {
+    border: none;
+    background: none;
+}
+
+.profile {
+    display: inline-flex;
+    padding: 4px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.profile:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.profile-active {
+    display: inline-flex;
+    transform: scale(1.12);
+    border: 4px solid black;
+    border-radius: 50%;
+    box-shadow:  0px 5px 30px 0px rgba(100, 100, 111, 0.5);
+    transition: transform .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+.profile img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+.profile-active img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+.profile-information-container {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-information-item {
+    white-space: nowrap;
+    width: 100%;
+}
+
+.profile-information {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-card {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: #F4FFF8;
+    /* background-color: white; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 30px 50px 30px 50px;
+    white-space: initial;
+}
+
+.profile-name {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(55, 51, 50);
+    margin-bottom: 0px;
+}
+
+.profile-current-location {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(55, 51, 50);
+}
+
+.profile-summary {
+    width: 80%;
+    font-size: 1.6em;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-list {
+    list-style-type: circle;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: rgba(55, 51, 50);
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.profile-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-media-text {
+    font-size: 1.8rem;
+    color: rgba(55, 51, 50);
+}
+
+.profile-media-logo-box {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#linkedin-logo {
+    transform: scale(3);
+    color:blue;
+    transition: all .3s ease-in-out;
+}
+
+#email-logo {
+    transform: scale(3);
+    color:rgb(0, 191, 255);
+    transition: all .3s ease-in-out;
+}
+
+#linkedin-logo:hover {
+    color:rgb(0, 0, 169);
+    transition: all .3s ease-in-out;
+}
+
+#email-logo:hover {
+    color:rgb(0, 116, 154);
+    transition: all .3s ease-in-out;
+}
+
+@media only screen and (min-width: 0px) {
+    .profile-title {
+        font-size: 0.9rem;
+    }
+
+    .profile-click-me {
+        margin-top: -17px;
+        font-size: 0.8rem;
+    }
+
+    .profile-container {
+        margin-top: 25px;
+    }
+
+    .profile-active {
+        border: 2px solid black;
+    }
+    
+    .profile img {
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    .profile-active img {
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-size: 1.4rem;
+    }
+
+    .profile-current-location {
+        font-size: 1rem;
+    }
+
+    .profile-summary {
+        font-size: 0.8rem;
+    }
+
+    .profile-list {
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+
+    .profile-media-text {
+        font-size: 1rem;
+    }
+    
+    .profile-media-logo-box {
+        width: 100px;
+        margin-left: -10px;
+    }
+
+    #linkedin-logo {
+        transform: scale(1.7);
+    }
+
+    #email-logo {
+        transform: scale(1.7);
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .profile-title {
+        font-size: 1.2rem;
+    }
+
+    .profile-click-me {
+        margin-top: -20px;
+        font-size: 0.9rem;
+    }
+
+    .profile-container {
+        margin-top: 30px;
+    }
+
+    .profile-active {
+        border: 3px solid black;
+    }
+    
+    .profile img {
+        width: 175px;
+        border-radius: 50%;
+    }
+    
+    .profile-active img {
+        width: 175px;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-size: 1.8rem;
+    }
+
+    .profile-current-location {
+        font-size: 1.3rem;
+    }
+
+    .profile-summary {
+        font-size: 1rem;
+    }
+
+    .profile-list {
+        font-size: 1rem;
+        padding-left: 25px;
+    }
+
+    .profile-media-text {
+        font-size: 1.2rem;
+    }
+    
+    .profile-media-logo-box {
+        width: 110px;
+        margin-left: 10px;
+    }
+
+    #linkedin-logo {
+        transform: scale(1.9);
+    }
+
+    #email-logo {
+        transform: scale(1.9);
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .profile-title {
+        font-size: 1.5rem;
+    }
+
+    .profile-click-me {
+        margin-top: -25px;
+        font-size: 1.05rem;
+    }
+
+    .profile-container {
+        margin-top: 30px;
+    }
+
+    .profile-active {
+        border: 3px solid black;
+    }
+    
+    .profile img {
+        width: 200px;
+        border-radius: 50%;
+    }
+    
+    .profile-active img {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-size: 2rem;
+    }
+
+    .profile-current-location {
+        font-size: 1.5rem;
+    }
+
+    .profile-summary {
+        font-size: 1.2rem;
+    }
+
+    .profile-list {
+        font-size: 1.3rem;
+        padding-left: 30px;
+    }
+
+    .profile-media-text {
+        font-size: 1.5rem;
+    }
+    
+    .profile-media-logo-box {
+        width: 120px;
+        margin-left: 15px;
+    }
+
+    #linkedin-logo {
+        transform: scale(2.1);
+    }
+
+    #email-logo {
+        transform: scale(2.1);
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .profile-title {
+        font-size: 1.65rem;
+    }
+
+    .profile-click-me {
+        margin-top: -30px;
+        font-size: 1.15rem;
+    }
+
+    .profile-container {
+        margin-top: 50px;
+    }
+
+    .profile-active {
+        border: 4px solid black;
+    }
+    
+    .profile img {
+        width: 250px;
+        border-radius: 50%;
+    }
+    
+    .profile-active img {
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-size: 2.25rem;
+    }
+
+    .profile-current-location {
+        font-size: 1.75rem;
+    }
+
+    .profile-summary {
+        font-size: 1.45rem;
+    }
+
+    .profile-list {
+        font-size: 1.5rem;
+        padding-left: 35px;
+    }
+
+    .profile-media-text {
+        font-size: 1.7rem;
+    }
+    
+    .profile-media-logo-box {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    #linkedin-logo {
+        transform: scale(2.5);
+    }
+
+    #email-logo {
+        transform: scale(2.5);
+    }
+}
+
+@media only screen and (min-width: 1325px) {
+    .profile-title {
+        font-size: 2rem;
+    }
+
+    .profile-click-me {
+        margin-top: -30px;
+        font-size: 1.2rem;
+    }
+
+    .profile-container {
+        margin-top: 50px;
+    }
+
+    .profile-active {
+        border: 4px solid black;
+    }
+    
+    .profile img {
+        width: 300px;
+        border-radius: 50%;
+    }
+    
+    .profile-active img {
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .profile-name {
+        font-size: 2.5rem;
+    }
+
+    .profile-current-location {
+        font-size: 2rem;
+    }
+
+    .profile-summary {
+        font-size: 1.6rem;
+    }
+
+    .profile-list {
+        font-size: 1.8rem;
+        padding-left: 40px;
+    }
+
+    .profile-media-text {
+        font-size: 1.8rem;
+    }
+    
+    .profile-media-logo-box {
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    #linkedin-logo {
+        transform: scale(3);
+    }
+    
+    #email-logo {
+        transform: scale(3);
+    }
+}

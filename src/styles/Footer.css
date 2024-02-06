@@ -1,0 +1,34 @@
+.footer {
+    background-color: #000F08;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    color: #F4FFF8;
+    text-align: center;
+    /* position: absolute; */
+}
+
+@media only screen and (min-width: 0px) {
+    .footer {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .footer {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .footer {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .footer {
+        font-size: 1em;
+    }
+}
