@@ -1,4 +1,5 @@
 import "../../styles/Home.css";
+import Divider from "../../components/Divider.tsx";
 import Nav from "../../components/Nav.tsx";
 import Carousel from "./Carousel.tsx";
 import Description from "./Description.tsx";
@@ -23,6 +24,9 @@ function Home() {
       <div>
         <Description />
       </div>
+
+      {/* Divider */}
+      <Divider />
 
       {/* Profile */}
       <div>
