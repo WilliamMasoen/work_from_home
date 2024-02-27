@@ -4,7 +4,10 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 70px;
     top: 0;
+    z-index: 998;
+    position: fixed;
 }
 
 #web-logo {
@@ -164,6 +167,11 @@
 }
 
 @media only screen and (min-width: 380px) {
+    .nav-bar {
+        height: 70px;
+        position: fixed;
+    }
+
     #web-logo a img {
         width: 80px;
     }
@@ -174,6 +182,11 @@
 }
 
 @media only screen and (min-width: 540px) {
+    .nav-bar {
+        height: 80px;
+        position: fixed;
+    }
+
     #web-logo a img {
         width: 90px;
     }
@@ -184,6 +197,11 @@
 }
 
 @media only screen and (min-width: 769px) {
+    .nav-bar {
+        height: 95px;
+        position: fixed;
+    }
+
     .navbar-dropdown {
         display: none;
     }
@@ -208,6 +226,11 @@
 }
 
 @media only screen and (min-width: 1025px) {
+    .nav-bar {
+        height: 110px;
+        position: fixed;
+    }
+
     .navbar-dropdown {
         display: none;
     }

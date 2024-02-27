@@ -16,7 +16,7 @@ function Home() {
       </div>
 
       {/* Quote Carousel */}
-      <div>
+      <div className="first-element">
         <Carousel />
       </div>
 
@@ -26,7 +26,7 @@ function Home() {
       </div>
 
       {/* Divider */}
-      <Divider />
+      {/* <Divider /> */}
 
       {/* Profile */}
       <div>

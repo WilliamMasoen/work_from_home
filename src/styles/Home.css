@@ -1,2 +1,29 @@
 /* Draw borders for every element to debug */
 /* * { border: 1px solid red !important; } */
+.first-element {
+    margin-top: 70px;
+}
+
+@media only screen and (min-width: 380px) {
+    .first-element {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .first-element {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .first-element {
+        margin-top: 95px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .first-element {
+        margin-top: 110px;
+    }
+}
