@@ -16,7 +16,10 @@ function Home() {
       </div>
 
       {/* Quote Carousel */}
-      <div className="first-element">
+      {/* first-page-element refers to the first element on the page, */}
+      {/* since the navigation bar has the style 'position: fixed', which */}
+      {/* technically removes the element from the normal page flow. */}
+      <div className="first-page-element">
         <Carousel />
       </div>
 
@@ -24,9 +27,6 @@ function Home() {
       <div>
         <Description />
       </div>
-
-      {/* Divider */}
-      {/* <Divider /> */}
 
       {/* Profile */}
       <div>

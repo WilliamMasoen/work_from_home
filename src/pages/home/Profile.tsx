@@ -150,11 +150,7 @@ function Profile() {
                             >
                               <FaLinkedin id="linkedin-logo" />
                             </a>
-                            <a
-                              href={profile.email}
-                              className="email-url"
-                              // target="_blank"
-                            >
+                            <a href={profile.email} className="email-url">
                               <GrMail id="email-logo" />
                             </a>
                           </div>

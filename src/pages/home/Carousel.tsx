@@ -15,7 +15,6 @@ interface Quote {
 }
 
 function Carousel() {
-  // const [activeIndex, setActiveIndex] = useState(0);\
   const [slide, setSlide] = useState(0);
 
   // Use ILOVEIMG to crop images to all be the same size (width: 3072px, height: 1603px)

@@ -3,7 +3,6 @@ html {
     height: 100%;
     width: 100%;
     padding: 0px;
-    /* overflow-y: scroll; */
     overflow-x: scroll; 
     margin: 0;
 }
@@ -16,15 +15,12 @@ body {
     min-height: min-content;
     min-width: 380px;
     background-color: #F4FFF8;
-    /* background-color: white; */
     width: 100%;
     padding: 0px;
-    /* overflow-y: overlay; */
 }
 
 ::-webkit-scrollbar {
     width: 20px;
-    /* height: 20px; */
 }
 
 ::-webkit-scrollbar-thumb {

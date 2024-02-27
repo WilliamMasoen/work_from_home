@@ -17,7 +17,6 @@
 }
 
 .home-description {
-    /* margin: 20px 25px 20px 25px; */
     padding: 7px;
     font-size: 1.8em;
     color: black;
@@ -72,8 +71,6 @@
     }
 
     .home-description {
-        /* margin: 40px 60px 40px 60px; */
-        /* padding: 20px; */
         font-size: 1.2em;
     }
 
@@ -92,8 +89,6 @@
     }
 
     .home-description {
-        /* margin: 40px 90px 40px 90px; */
-        /* padding: 40px; */
         font-size: 1.4em;
     }
 
@@ -112,8 +107,6 @@
     }
     
     .home-description {
-        /* margin: 50px 120px 50px 120px; */
-        /* padding: 80px; */
         font-size: 1.6em;
     }
 
@@ -132,8 +125,6 @@
     }
     
     .home-description {
-        /* margin: 50px 150px 50px 150px; */
-        /* padding: 100px; */
         font-size: 1.8em;
     }
 

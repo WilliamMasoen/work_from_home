@@ -12,15 +12,6 @@ interface Description {
 
 function Description() {
   const DescriptionList: Description[] = [
-    // {
-    //   description:
-    //     "This website serves to showcase our sprinkles of creativity and commitment to our career growth in the technology space. " +
-    //     "Combining both of our skillsets, our collaboration aims to create as many meaningful and practical applications as we can to " +
-    //     "(definitely) generate a boost of productivity and efficiency to our day-to-day errands and challenges. " +
-    //     "We hope that you learn something about us from here and feel absolutely free to reach out to us for a chat about opportunities, " +
-    //     "collaborations, or even coffee :)",
-    // },
-
     {
       title: "vision.",
       description:
@@ -48,15 +39,7 @@ function Description() {
       <div>
         {DescriptionList.map((description, index) => {
           return (
-            // <div className="home-description">{description.description}</div>
             <>
-              {/* <div
-                style={{
-                  visibility: index === 0 ? "hidden" : "visible",
-                }}
-              >
-                <Divider />
-              </div> */}
               <div
                 className="home-description-title"
                 style={{
