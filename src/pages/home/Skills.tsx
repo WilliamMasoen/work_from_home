@@ -44,7 +44,6 @@ function Skills() {
     <>
       <div className="skills-box">
         <h1 className="skills-header">Skills/Tools</h1>
-        {/* <p className="skills-content">skills to pay the bills.</p> */}
         <div className="skills-list">
           {SkillsList.map((skill) => {
             return (
