@@ -14,15 +14,15 @@ function Nav() {
   const NavButtonsList: NavButtons[] = [
     {
       button: "Home",
-      link: "https://main.d1y11gn2z9ehb5.amplifyapp.com/",
+      link: "https://aliantomasoen.com/",
     },
     {
       button: "About Us",
-      link: "https://main.d1y11gn2z9ehb5.amplifyapp.com/#about-us",
+      link: "https://aliantomasoen.com/#about-us",
     },
     {
       button: "Our Projects",
-      link: "https://main.d1y11gn2z9ehb5.amplifyapp.com/projects",
+      link: "https://aliantomasoen.com/projects",
     },
   ];
 
@@ -46,7 +46,7 @@ function Nav() {
       <nav className="nav-bar" id="nav-bar">
         {/* Website Logo */}
         <div id="web-logo">
-          <a href="https://main.d1y11gn2z9ehb5.amplifyapp.com/">
+          <a href="https://aliantomasoen.com/">
             <img src={logo} />
           </a>
         </div>
