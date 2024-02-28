@@ -5,6 +5,7 @@ html {
     padding: 0px;
     overflow-x: scroll; 
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
