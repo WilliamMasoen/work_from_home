@@ -18,7 +18,7 @@ function Nav() {
     },
     {
       button: "About Us",
-      link: "https://aliantomasoen.com/#about-us",
+      link: "#about-us",
     },
     {
       button: "Our Projects",
