@@ -1,7 +1,7 @@
 import logo from "../assets/images/Logo.png";
 import { HiBars3 } from "react-icons/hi2";
 import { RxCross1 } from "react-icons/rx";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import "../styles/Nav.css";
 // import NavSmall from "./NavSmall";
 
@@ -41,6 +41,17 @@ function Nav() {
     <RxCross1 className="dropdown-button" onClick={handleToggle} />
   );
 
+  let menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    document.addEventListener("mousedown", (event: any) => {
+      if (!menuRef.current.contains(event.target)) {
+        setToggleMenu(false);
+        setIcon(true);
+      }
+    });
+  });
+
   return (
     <>
       <nav className="nav-bar" id="nav-bar">
@@ -67,7 +78,7 @@ function Nav() {
         </div>
 
         {/* Navigation Dropdown Menu (Small Screen Size) */}
-        <div className="navbar-dropdown">
+        <div className="navbar-dropdown" ref={menuRef}>
           {isUnclickedIcon ? <UnclickedIcon /> : <ClickedIcon />}
           <ul
             className={
