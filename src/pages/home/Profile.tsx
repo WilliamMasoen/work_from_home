@@ -1,5 +1,5 @@
 import "../../styles/Profile.css";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { GrMail } from "react-icons/gr";
 import jussy from "../../assets/images/profile_pics/justin.jpeg";
@@ -66,6 +66,16 @@ function Profile() {
     setProfileInformation(newIndex);
   };
 
+  let menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    document.addEventListener("mousedown", (event: any) => {
+      if (!menuRef.current.contains(event.target)) {
+        setProfileInformation(-1);
+      }
+    });
+  });
+
   return (
     <>
       <div className="profile-title" id="about-us">
@@ -74,7 +84,7 @@ function Profile() {
       <div className="profile-click-me">
         <h4>Click on a person to learn more</h4>
       </div>
-      <div className="profile-container">
+      <div className="profile-container" ref={menuRef}>
         <div className="profile-picture">
           {ProfileList.map((profile, index) => {
             return (
