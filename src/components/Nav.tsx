@@ -45,7 +45,7 @@ function Nav() {
 
   useEffect(() => {
     document.addEventListener("mousedown", (event: any) => {
-      if (!menuRef.current.contains(event.target)) {
+      if (!menuRef.current?.contains(event.target)) {
         setToggleMenu(false);
         setIcon(true);
       }
