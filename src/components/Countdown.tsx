@@ -1,8 +1,8 @@
-import { count } from "console";
-import "../styles/Divider.css";
+import "../styles/Countdown.css";
 
 const countdownDate = new Date("June 14, 2024 12:00:00").getTime();
-const x = setInterval(() => {
+
+setInterval(() => {
   const currentTime: number = new Date().getTime();
   const remainingTime: number = countdownDate - currentTime;
 
@@ -31,26 +31,31 @@ function Countdown() {
   return (
     <>
       <div className="countdown-title">Our first project is coming soon!</div>
+
       <div className="countdown-container">
-        <div className="weeks-container">
+        <div className="time-container">
           <p id="weeks">00</p>
-          <span id="weeks-text">Weeks</span>
+          <span className="time-text">Weeks</span>
         </div>
-        <div className="days-container">
+
+        <div className="time-container">
           <p id="days">00</p>
-          <span id="days-text">Days</span>
+          <span className="time-text">Days</span>
         </div>
-        <div className="hours-container">
+
+        <div className="time-container">
           <p id="hours">00</p>
-          <span id="hours-text">Hours</span>
+          <span className="time-text">Hours</span>
         </div>
-        <div className="minutes-container">
+
+        <div className="time-container">
           <p id="minutes">00</p>
-          <span id="minutes-text">Minutes</span>
+          <span className="time-text">Minutes</span>
         </div>
-        <div className="seconds-container">
+
+        <div className="time-container">
           <p id="seconds">00</p>
-          <span id="seconds-text">Seconds</span>
+          <span className="time-text">Seconds</span>
         </div>
       </div>
     </>

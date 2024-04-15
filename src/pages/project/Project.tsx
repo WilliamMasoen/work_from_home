@@ -3,6 +3,9 @@ import Footer from "../../components/Footer.tsx";
 import Countdown from "../../components/Countdown.tsx";
 import "../../styles/Project.css";
 
+// Set to 1 to display countdown, 0 otherwise
+const countdownDisplay = 1;
+
 function Project() {
   return (
     <>
@@ -12,13 +15,16 @@ function Project() {
           <Nav />
         </div>
 
-        <div id="countdown-container">
+        {/* Project Countdown */}
+        <div
+          id={
+            countdownDisplay === 1
+              ? "countdown-container-active"
+              : "countdown-container"
+          }
+        >
           <Countdown />
         </div>
-
-        {/* <div className="project-text">
-          <p>Stay tuned for our projects :)</p>
-        </div> */}
 
         {/* Footer */}
         <div id="footer">
