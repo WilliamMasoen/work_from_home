@@ -7,6 +7,9 @@ Justin's and William's sprinkles of creativity and commitment to high-paying sal
 After cloning the repo to your local machine, run this command
 'npm i' or 'sudo npm i'
 
+Install react-router-dom module using the command
+'npm i react-router-dom'
+
 ## Image Pixel Specifications
 
 - Carousel Background Image:
