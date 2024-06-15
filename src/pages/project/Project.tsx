@@ -4,7 +4,7 @@ import Countdown from "../../components/Countdown.tsx";
 import "../../styles/Project.css";
 
 // Set to 1 to display countdown, 0 otherwise
-const countdownDisplay = 1;
+const countdownDisplay = 0;
 
 function Project() {
   return (
@@ -18,12 +18,20 @@ function Project() {
         {/* Project Countdown */}
         <div
           id={
-            countdownDisplay === 1
+            countdownDisplay >= 1
               ? "countdown-container-active"
-              : "countdown-container"
+              : "countdown-container-inactive"
           }
         >
           <Countdown />
+        </div>
+
+        <div
+          id={
+            countdownDisplay < 1 ? "placeholder-active" : "placeholder-inactive"
+          }
+        >
+          <p>Stay tuned for our projects! :)</p>
         </div>
 
         {/* Footer */}

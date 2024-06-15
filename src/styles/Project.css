@@ -10,7 +10,17 @@
     display: visible;
 }
 
-#countdown-container {
+#countdown-container-inactive {
+    display: none;
+}
+
+#placeholder-active {
+    font-size: 2.5rem;
+    color: #4D4847;
+    text-align: center;
+}
+
+#placeholder-inactive {
     display: none;
 }
 
@@ -24,6 +34,7 @@
 @media only screen and (min-width: 540px) {
     #project-page {
         margin-top: 80px;
+
     }
 }
 
@@ -32,7 +43,6 @@
         margin-top: 95px;
     }
 }
-
 @media only screen and (min-width: 1025px) {
     #project-page {
         margin-top: 110px;
