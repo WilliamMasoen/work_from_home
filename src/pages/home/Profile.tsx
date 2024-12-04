@@ -32,11 +32,14 @@ function Profile() {
       university: "University of Toronto St George",
       expectedGrad: "May 2025",
       degree: "Computer Science Specialist + Statistics Minor + Co-Op",
-      hobby: "Gymming, Food, Nature, Walking, Coffee, Football (Soccer...)",
+      hobby:
+        "Gymming, Food, Nature, Walking, Coffee, Photography, Football (Soccer...)",
       linkedin: "https://www.linkedin.com/in/justinalianto",
       email: "mailto:justinalianto@gmail.com",
       skills:
-        "Python (scikit-learn, PySpark, pandas, numpy), Spark, SQL, Airflow, Hive, Power BI, Docker, Firebase Cloud, Java, React",
+        "Python (PyTorch, TensorFlow, scikit-learn, PySpark, pandas, numpy), Spark, SQL, Airflow, " +
+        "Google Cloud Platform (BigQuery, Composer), dbt, Hive, Power BI, Tableau, Docker, Java, React, " +
+        "Firebase Cloud",
       summary:
         "I am a committed coffee-lover seeking to actively garner as much " +
         "data science and/or data engineering experience as I can in the pursuit " +
@@ -52,13 +55,13 @@ function Profile() {
       expectedGrad: "Dec 2024",
       degree: "Computer Science Major with Co-Op Program",
       hobby:
-        "Cars, Outdoor Activities, Technologies, Working out, Soccer, Movies, Legend of Zelda",
+        "Cars, Outdoor Activities, Technologies, Working out, Soccer, Movies",
       linkedin: "https://www.linkedin.com/in/williamvm",
       email: "mailto:william_vm@icloud.com",
       skills:
-        "React, Javascript, Python, Java, SQL, AWS Cloud Computing, Unit Testing and Debugging",
+        "React.js, Javascript, Python (NumPy, Pandas), Machine Learning (TensorFlow, Scikit-learn, PyTorch), AWS Cloud Computing, Node.js, Express.js, PostgreSQL, MySQL, Java, Unit Testing and Debugging",
       summary:
-        "An avid enthusiast of both cars and Legend of Zelda, I am also deeply passionate about contributing to the field of software engineering, driven by the eagerness to make a meaningful impact and bring about positive changes in the technological landscape.",
+        "An avid enthusiast of both cars and Legend of Zelda, I am also deeply passionate about contributing to the field of software engineering and machine learning, driven by the eagerness to make a meaningful impact and bring about positive changes in the technological landscape.",
     },
   ];
 
