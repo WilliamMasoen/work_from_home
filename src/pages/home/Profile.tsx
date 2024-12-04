@@ -32,11 +32,14 @@ function Profile() {
       university: "University of Toronto St George",
       expectedGrad: "May 2025",
       degree: "Computer Science Specialist + Statistics Minor + Co-Op",
-      hobby: "Gymming, Food, Nature, Walking, Coffee, Football (Soccer...)",
+      hobby:
+        "Gymming, Food, Nature, Walking, Coffee, Photography, Football (Soccer...)",
       linkedin: "https://www.linkedin.com/in/justinalianto",
       email: "mailto:justinalianto@gmail.com",
       skills:
-        "Python (scikit-learn, PySpark, pandas, numpy), Spark, SQL, Airflow, Hive, Power BI, Docker, Firebase Cloud, Java, React",
+        "Python (PyTorch, TensorFlow, scikit-learn, PySpark, pandas, numpy), Spark, SQL, Airflow, " +
+        "Google Cloud Platform (BigQuery, Composer), dbt, Hive, Power BI, Tableau, Docker, Java, React, " +
+        "Firebase Cloud",
       summary:
         "I am a committed coffee-lover seeking to actively garner as much " +
         "data science and/or data engineering experience as I can in the pursuit " +
