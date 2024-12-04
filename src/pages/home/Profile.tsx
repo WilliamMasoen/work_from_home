@@ -55,13 +55,13 @@ function Profile() {
       expectedGrad: "Dec 2024",
       degree: "Computer Science Major with Co-Op Program",
       hobby:
-        "Cars, Outdoor Activities, Technologies, Working out, Soccer, Movies, Legend of Zelda",
+        "Cars, Outdoor Activities, Technologies, Working out, Soccer, Movies",
       linkedin: "https://www.linkedin.com/in/williamvm",
       email: "mailto:william_vm@icloud.com",
       skills:
-        "React, Javascript, Python, Java, SQL, AWS Cloud Computing, Unit Testing and Debugging",
+        "React.js, Javascript, Python (NumPy, Pandas), Machine Learning (TensorFlow, Scikit-learn, PyTorch), AWS Cloud Computing, Node.js, Express.js, PostgreSQL, MySQL, Java, Unit Testing and Debugging",
       summary:
-        "An avid enthusiast of both cars and Legend of Zelda, I am also deeply passionate about contributing to the field of software engineering, driven by the eagerness to make a meaningful impact and bring about positive changes in the technological landscape.",
+        "An avid enthusiast of both cars and Legend of Zelda, I am also deeply passionate about contributing to the field of software engineering and machine learning, driven by the eagerness to make a meaningful impact and bring about positive changes in the technological landscape.",
     },
   ];
 
