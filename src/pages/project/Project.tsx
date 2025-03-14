@@ -23,6 +23,7 @@ function Project() {
       github: "https://github.com/WilliamMasoen/birthday_cake",
     },
   ];
+
   return (
     <>
       <div id="project-page">
